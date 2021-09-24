@@ -548,7 +548,7 @@ public class MuniBonds extends BaseTest {
              
             int Total4 = Integer.parseInt(DeleteComma2);
              
-            if (Total4 > Total3){
+            if (Total4 >= Total3){
                 System.out.println("Total from 4% search " + Total4 + " Is correctly Larger than 3% Total " + Total3);
                 test.log(LogStatus.PASS, "Total from 4% search " + Total4 + " Is correctly Larger than 3% Total " + Total3);
             }
