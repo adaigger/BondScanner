@@ -68,8 +68,8 @@ public class GlobalCorporateBonds extends BaseTest {
                 Utils.GetMaturityDateEnd(driver).sendKeys("12/31/2021");
                  
                 //Enter the values 0.5 - 1.5 for the Yield to Worst range
-                Utils.GetYTWMin(driver).sendKeys("0.5");
-                Utils.GetYTWMax(driver).sendKeys("1.5");
+               // Utils.GetYTWMin(driver).sendKeys("0.5");
+               // Utils.GetYTWMax(driver).sendKeys("1.5");
                  
                 //Click ViewResults and Record the number of results
                 Utils.GetViewResultsButton(driver).click();
@@ -83,7 +83,7 @@ public class GlobalCorporateBonds extends BaseTest {
                 {
                     lastFourDigits = totalnum.substring(totalnum.length() - 3);
                 }
-                else if (totalnum.length() == 25)
+                else if (totalnum.length() == 24)
                 {
                     lastFourDigits = totalnum.substring(totalnum.length() - 5);
                 }
@@ -561,8 +561,8 @@ public class GlobalCorporateBonds extends BaseTest {
                 Utils.GetMaturityDateEnd(driver).sendKeys("12/31/2021");
                 
                 //Enter the values 0.5 - 1.5 for the Yield to Worst range
-                Utils.GetYTWMin(driver).sendKeys("0.5");
-                Utils.GetYTWMax(driver).sendKeys("1.5");
+             //   Utils.GetYTWMin(driver).sendKeys("0.5");
+              //  Utils.GetYTWMax(driver).sendKeys("1.5");
                  
                 //Click Select None
                 Utils.GetNoneInd(driver).click();             
@@ -683,8 +683,8 @@ public class GlobalCorporateBonds extends BaseTest {
                 Utils.GetMaturityDateEnd(driver).sendKeys("12/31/2030");
                 
                 //Enter the values 0.5 - 1.5 for the Yield to Worst range
-                Utils.GetYTWMin(driver).sendKeys("0.5");
-                Utils.GetYTWMax(driver).sendKeys("1.5");
+             //   Utils.GetYTWMin(driver).sendKeys("0.5");
+              //  Utils.GetYTWMax(driver).sendKeys("1.5");
                  
                 //Click Enter and Record the number of results
                 Utils.GetViewResultsButton(driver).click();
@@ -698,13 +698,13 @@ public class GlobalCorporateBonds extends BaseTest {
                 {
                     lastFourDigits = totalnum.substring(totalnum.length() - 3);
                 }
-                else if (totalnum.length() == 25)
-                {
-                    lastFourDigits = totalnum.substring(totalnum.length() - 5);
-                }
                 else if (totalnum.length() == 24)
                 {
                     lastFourDigits = totalnum.substring(totalnum.length() - 5);
+                }
+                else if (totalnum.length() == 25)
+                {
+                    lastFourDigits = totalnum.substring(totalnum.length() - 6);
                 }
                 else if (totalnum.length() == 14)
                 {
@@ -1112,8 +1112,8 @@ public class GlobalCorporateBonds extends BaseTest {
                 Utils.GetMaturityDateEnd(driver).sendKeys("12/31/2021");
                 
                 //Enter the values 0.5 - 1.5 for the Yield to Worst range
-                Utils.GetYTWMin(driver).sendKeys("0.5");
-                Utils.GetYTWMax(driver).sendKeys("1.5");
+               // Utils.GetYTWMin(driver).sendKeys("0.5");
+              //  Utils.GetYTWMax(driver).sendKeys("1.5");
                  
                 //Click Select None
                 Utils.GetNoneInd(driver).click();
