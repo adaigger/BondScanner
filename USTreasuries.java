@@ -7,8 +7,6 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeClass;
-import org.testng.AssertJUnit;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import java.text.SimpleDateFormat;
 import java.util.Date;
